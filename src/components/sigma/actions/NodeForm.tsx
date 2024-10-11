@@ -16,7 +16,7 @@ export default function NodeForm({ data, handleSubmit }) {
       enableReinitialize
       initialValues={initialValues}
       onSubmit={handleSubmit}>
-      <Form id="main-form">
+      <Form id="main-form" noValidate>
         <Row gutter={[16, 24]}>
           <Col span={12}>
             <TextInput placeholder="Label" name="label" required />
